@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Donate() {
   return (
     <div>
-      <section className="bg-gradient-to-b from-teal-50 to-white px-4 py-16 sm:px-6 sm:py-24">
+      <section className="bg-gradient-to-b from-accent-light to-white px-4 py-16 sm:px-6 sm:py-24">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="text-3xl font-bold tracking-tight text-stone-800 sm:text-4xl">
             Donate
@@ -44,7 +44,7 @@ export default function Donate() {
                 or Venmo). In the meantime, please reach out at{" "}
                 <a
                   href="mailto:donate@helpinghandsdfw.org"
-                  className="text-teal-600 hover:underline"
+                  className="text-accent hover:underline"
                 >
                   donate@helpinghandsdfw.org
                 </a>{" "}
@@ -73,7 +73,7 @@ export default function Donate() {
             <p className="mt-6">
               <a
                 href="mailto:donate@helpinghandsdfw.org"
-                className="inline-flex items-center font-medium text-teal-600 hover:underline"
+                className="inline-flex items-center font-medium text-accent hover:underline"
               >
                 Contact us to arrange a donation →
               </a>
@@ -81,7 +81,7 @@ export default function Donate() {
           </div>
 
           {/* Impact messaging */}
-          <div className="rounded-xl bg-teal-50 p-8 text-center">
+          <div className="rounded-xl bg-accent-light p-8 text-center">
             <p className="text-lg font-medium text-stone-800">
               Your support helps provide warmth, dignity, and hope to those who
               need it most.

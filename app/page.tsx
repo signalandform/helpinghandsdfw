@@ -1,14 +1,20 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-b from-teal-50 to-white px-4 py-20 sm:px-6 sm:py-28">
+      <section className="bg-gradient-to-b from-accent-light to-white px-4 py-20 sm:px-6 sm:py-28">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-stone-800 sm:text-5xl">
-            Helping Hands DFW
-          </h1>
+          <Image
+            src="/logo.png"
+            alt="Helping Hands DFW"
+            width={280}
+            height={75}
+            priority
+            className="mx-auto h-16 w-auto sm:h-20"
+          />
           <p className="mt-6 text-lg leading-relaxed text-stone-600 sm:text-xl">
             A community of friends working together to support our homeless
             neighbors in the Dallas–Fort Worth area.
@@ -16,13 +22,13 @@ export default function Home() {
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/donate"
-              className="w-full rounded-lg bg-teal-600 px-8 py-3 text-center font-semibold text-white transition-colors hover:bg-teal-700 sm:w-auto"
+              className="w-full rounded-lg bg-primary px-8 py-3 text-center font-semibold text-white transition-colors hover:bg-primary-hover sm:w-auto"
             >
               Donate
             </Link>
             <Link
               href="/support"
-              className="w-full rounded-lg border-2 border-teal-600 px-8 py-3 text-center font-semibold text-teal-600 transition-colors hover:bg-teal-50 sm:w-auto"
+              className="w-full rounded-lg border-2 border-primary px-8 py-3 text-center font-semibold text-primary transition-colors hover:bg-accent-light sm:w-auto"
             >
               Get Involved
             </Link>
@@ -53,7 +59,7 @@ export default function Home() {
               href="/donate"
               className="rounded-xl border border-stone-200 bg-white p-6 text-center shadow-sm transition-shadow hover:shadow-md"
             >
-              <h3 className="font-semibold text-teal-700">Donate</h3>
+              <h3 className="font-semibold text-primary">Donate</h3>
               <p className="mt-2 text-sm text-stone-600">
                 Give financially or contribute in-kind items to support our work.
               </p>
@@ -62,7 +68,7 @@ export default function Home() {
               href="/resources"
               className="rounded-xl border border-stone-200 bg-white p-6 text-center shadow-sm transition-shadow hover:shadow-md"
             >
-              <h3 className="font-semibold text-teal-700">Resources</h3>
+              <h3 className="font-semibold text-primary">Resources</h3>
               <p className="mt-2 text-sm text-stone-600">
                 Find shelters, food banks, and services for those in need.
               </p>
@@ -71,7 +77,7 @@ export default function Home() {
               href="/support"
               className="rounded-xl border border-stone-200 bg-white p-6 text-center shadow-sm transition-shadow hover:shadow-md"
             >
-              <h3 className="font-semibold text-teal-700">Support</h3>
+              <h3 className="font-semibold text-primary">Support</h3>
               <p className="mt-2 text-sm text-stone-600">
                 Volunteer, join events, or reach out to get involved.
               </p>

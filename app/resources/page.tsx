@@ -67,7 +67,7 @@ const resources = [
 export default function Resources() {
   return (
     <div>
-      <section className="bg-gradient-to-b from-teal-50 to-white px-4 py-16 sm:px-6 sm:py-24">
+      <section className="bg-gradient-to-b from-accent-light to-white px-4 py-16 sm:px-6 sm:py-24">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="text-3xl font-bold tracking-tight text-stone-800 sm:text-4xl">
             Resources
@@ -95,9 +95,9 @@ export default function Resources() {
                     rel="noopener noreferrer"
                     className="block rounded-xl border border-stone-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md"
                   >
-                    <h3 className="font-semibold text-teal-700">{name}</h3>
+                    <h3 className="font-semibold text-primary">{name}</h3>
                     <p className="mt-2 text-sm text-stone-600">{description}</p>
-                    <span className="mt-3 inline-block text-sm font-medium text-teal-600">
+                    <span className="mt-3 inline-block text-sm font-medium text-accent">
                       Visit website →
                     </span>
                   </a>

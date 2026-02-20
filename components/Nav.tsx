@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -13,16 +14,23 @@ export default function Nav() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
         <Link
           href="/"
-          className="text-xl font-semibold tracking-tight text-stone-800 transition-colors hover:text-teal-700"
+          className="flex items-center transition-opacity hover:opacity-90"
         >
-          Helping Hands DFW
+          <Image
+            src="/logo.png"
+            alt="Helping Hands DFW"
+            width={180}
+            height={48}
+            priority
+            className="h-10 w-auto sm:h-12"
+          />
         </Link>
         <ul className="flex items-center gap-6">
           {navLinks.map(({ href, label }) => (
             <li key={href}>
               <Link
                 href={href}
-                className="text-sm font-medium text-stone-600 transition-colors hover:text-teal-600"
+                className="text-sm font-medium text-stone-600 transition-colors hover:text-primary"
               >
                 {label}
               </Link>

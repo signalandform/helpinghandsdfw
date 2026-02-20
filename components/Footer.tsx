@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = [
   { href: "/", label: "Home" },
@@ -12,8 +13,14 @@ export default function Footer() {
     <footer className="border-t border-stone-200 bg-stone-50">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-          <div className="text-center sm:text-left">
-            <p className="font-semibold text-stone-800">Helping Hands DFW</p>
+          <div className="flex flex-col items-center sm:items-start">
+            <Image
+              src="/logo.png"
+              alt="Helping Hands DFW"
+              width={140}
+              height={38}
+              className="h-8 w-auto sm:h-9"
+            />
             <p className="mt-1 text-sm text-stone-600">
               Supporting our homeless neighbors in the Dallas–Fort Worth community.
             </p>
@@ -23,7 +30,7 @@ export default function Footer() {
               <li key={href}>
                 <Link
                   href={href}
-                  className="text-sm text-stone-600 transition-colors hover:text-teal-600"
+                  className="text-sm text-stone-600 transition-colors hover:text-primary"
                 >
                   {label}
                 </Link>
@@ -37,7 +44,7 @@ export default function Footer() {
             Contact:{" "}
             <a
               href="mailto:info@helpinghandsdfw.org"
-              className="text-teal-600 hover:underline"
+              className="text-accent hover:underline"
             >
               info@helpinghandsdfw.org
             </a>

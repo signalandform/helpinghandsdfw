@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Support() {
   return (
     <div>
-      <section className="bg-gradient-to-b from-teal-50 to-white px-4 py-16 sm:px-6 sm:py-24">
+      <section className="bg-gradient-to-b from-accent-light to-white px-4 py-16 sm:px-6 sm:py-24">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="text-3xl font-bold tracking-tight text-stone-800 sm:text-4xl">
             Support Us
@@ -32,7 +32,7 @@ export default function Support() {
             </p>
             <a
               href="mailto:volunteer@helpinghandsdfw.org"
-              className="mt-6 inline-flex items-center font-medium text-teal-600 hover:underline"
+              className="mt-6 inline-flex items-center font-medium text-accent hover:underline"
             >
               Email us to volunteer →
             </a>
@@ -69,7 +69,7 @@ export default function Support() {
                 <span className="font-medium text-stone-700">General:</span>{" "}
                 <a
                   href="mailto:info@helpinghandsdfw.org"
-                  className="text-teal-600 hover:underline"
+                  className="text-accent hover:underline"
                 >
                   info@helpinghandsdfw.org
                 </a>
@@ -78,7 +78,7 @@ export default function Support() {
                 <span className="font-medium text-stone-700">Donations:</span>{" "}
                 <a
                   href="mailto:donate@helpinghandsdfw.org"
-                  className="text-teal-600 hover:underline"
+                  className="text-accent hover:underline"
                 >
                   donate@helpinghandsdfw.org
                 </a>
@@ -87,7 +87,7 @@ export default function Support() {
                 <span className="font-medium text-stone-700">Volunteer:</span>{" "}
                 <a
                   href="mailto:volunteer@helpinghandsdfw.org"
-                  className="text-teal-600 hover:underline"
+                  className="text-accent hover:underline"
                 >
                   volunteer@helpinghandsdfw.org
                 </a>
