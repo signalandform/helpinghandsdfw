@@ -6,6 +6,7 @@ const navLinks = [
   { href: "/donate", label: "Donate" },
   { href: "/resources", label: "Resources" },
   { href: "/support", label: "Support" },
+  { href: "/next-steps", label: "Next Steps" },
 ];
 
 export default function Nav() {
