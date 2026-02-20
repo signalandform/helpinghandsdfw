@@ -10,10 +10,10 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Helping Hands DFW"
-            width={280}
-            height={75}
+            width={560}
+            height={150}
             priority
-            className="mx-auto h-16 w-auto sm:h-20"
+            className="mx-auto h-80 w-auto sm:h-[25rem]"
           />
           <p className="mt-6 text-lg leading-relaxed text-stone-600 sm:text-xl">
             A community of friends working together to support our homeless

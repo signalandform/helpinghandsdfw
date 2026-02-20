@@ -22,7 +22,7 @@ export default function Nav() {
             width={180}
             height={48}
             priority
-            className="h-10 w-auto sm:h-12"
+            className="h-20 w-auto sm:h-24"
           />
         </Link>
         <ul className="flex items-center gap-6">
