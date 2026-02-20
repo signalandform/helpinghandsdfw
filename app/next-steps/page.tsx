@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Next Steps | Helping Hands DFW",
   description:
-    "Strategic outline for Helping Hands DFW: mission, operations, fundraising, and 30/60/90 day plan for our homeless outreach initiative.",
+    "Strategic outline for Helping Hands DFW: mission, operations, fundraising, and action plan for our homeless outreach initiative.",
 };
 
 export default function NextSteps() {
@@ -16,8 +16,7 @@ export default function NextSteps() {
           </h1>
           <p className="mt-6 text-lg text-stone-600">
             Align on what Helping Hands DFW is, who we serve, how we operate
-            day-to-day, and what we need to formalize over the next 30/60/90
-            days.
+            day-to-day, and what we need to formalize.
           </p>
         </div>
       </section>
@@ -27,7 +26,7 @@ export default function NextSteps() {
           {/* 1) Clarify mission, scope, and success metrics */}
           <div className="rounded-xl border border-stone-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-stone-800">
-              1) Clarify mission, scope, and success metrics (Week 0–2)
+              1) Clarify mission, scope, and success metrics
             </h2>
 
             <div className="mt-8 space-y-8">
@@ -102,7 +101,7 @@ export default function NextSteps() {
           {/* 2) Outreach operations */}
           <div className="rounded-xl border border-stone-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-stone-800">
-              2) Outreach operations (Week 0–6)
+              2) Outreach operations
             </h2>
 
             <div className="mt-8 space-y-8">
@@ -160,7 +159,7 @@ export default function NextSteps() {
           {/* 3) Donations + fundraising */}
           <div className="rounded-xl border border-stone-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-stone-800">
-              3) Donations + fundraising (Week 0–8)
+              3) Donations + fundraising
             </h2>
 
             <div className="mt-8 space-y-8">
@@ -211,7 +210,7 @@ export default function NextSteps() {
           {/* 4) Establish the nonprofit formally */}
           <div className="rounded-xl border border-stone-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-stone-800">
-              4) Establish the nonprofit formally (Week 0–12)
+              4) Establish the nonprofit formally
             </h2>
 
             <div className="mt-8 space-y-8">
@@ -262,7 +261,7 @@ export default function NextSteps() {
           {/* 5) Website + communications */}
           <div className="rounded-xl border border-stone-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-stone-800">
-              5) Website + communications (Week 0–6)
+              5) Website + communications
             </h2>
 
             <div className="mt-8 space-y-8">
@@ -299,13 +298,13 @@ export default function NextSteps() {
           {/* 6) 30 / 60 / 90 day plan */}
           <div className="rounded-xl border border-stone-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-stone-800">
-              6) 30 / 60 / 90 day plan (actionable)
+              6) Action plan
             </h2>
 
             <div className="mt-8 space-y-8">
               <div>
                 <h3 className="text-lg font-semibold text-primary">
-                  Next 30 days
+                  Phase 1
                 </h3>
                 <ul className="mt-2 list-inside list-disc space-y-1 text-stone-600">
                   <li>Finalize mission, scope, and metrics</li>
@@ -318,7 +317,7 @@ export default function NextSteps() {
 
               <div>
                 <h3 className="text-lg font-semibold text-primary">
-                  Next 60 days
+                  Phase 2
                 </h3>
                 <ul className="mt-2 list-inside list-disc space-y-1 text-stone-600">
                   <li>Formalize volunteer onboarding + training</li>
@@ -331,7 +330,7 @@ export default function NextSteps() {
 
               <div>
                 <h3 className="text-lg font-semibold text-primary">
-                  Next 90 days
+                  Phase 3
                 </h3>
                 <ul className="mt-2 list-inside list-disc space-y-1 text-stone-600">
                   <li>If fiscal sponsor: operating smoothly + consistent donation receipts</li>
@@ -346,7 +345,7 @@ export default function NextSteps() {
           {/* 7) Open questions */}
           <div className="rounded-xl border border-stone-200 bg-white p-8 shadow-sm">
             <h2 className="text-2xl font-semibold text-stone-800">
-              7) Open questions for the organization (use in the meeting)
+              7) Open questions for the organization
             </h2>
             <ul className="mt-6 list-inside list-disc space-y-2 text-stone-600">
               <li>What does &ldquo;success&rdquo; look like in 6 months?</li>
