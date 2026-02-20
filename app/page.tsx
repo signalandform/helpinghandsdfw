@@ -15,6 +15,9 @@ export default function Home() {
             priority
             className="mx-auto h-80 w-auto sm:h-[25rem]"
           />
+          <p className="mt-6 text-xl font-semibold italic text-primary sm:text-2xl">
+            Homeless, not hope-less
+          </p>
           <p className="mt-6 text-lg leading-relaxed text-stone-600 sm:text-xl">
             A community of friends working together to support our homeless
             neighbors in the Dallas–Fort Worth area.
